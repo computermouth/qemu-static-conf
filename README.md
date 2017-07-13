@@ -1,5 +1,4 @@
-
-These files enable (likely among other things) the ability to build `arm32v7/*` Docker images on a Linux host of a different architecture without putting qemu-*-static binaries in the image itself.
+These files enable (likely among other things) the ability to build `arm32v7/*` Docker images on a Linux host of a different architecture without putting qemu-*-static binaries in the image itself. (Only tested on Debian 9)
 
 ### How do I know if I need them?
 
