@@ -6,7 +6,7 @@ Run the following command:
 
 `systemctl status systemd-binfmt`
 
-If you see output like the following:
+If you see output like the following [note the `start condition failed` part]:
 
 ```
 computermouth@debian:~$ systemctl status systemd-binfmt
