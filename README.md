@@ -1,4 +1,4 @@
-These files enable (likely among other things) the ability to build `arm32v7/*` Docker images on a Linux host of a different architecture without putting qemu-*-static binaries in the image itself. (Only tested on Debian 9)
+The latest versions of Docker for Windows and Docker for Mac can build non-native architecture containers. I reached out to Anil Madhavapeddy, an engineer at Docker, asking about why it wasn't the case on Linux, turns out [Linux can too](https://twitter.com/avsm/status/885028269397090306), there's just an issue with some distributions of qemu-user-static that's disallowing the functionality. These files enable (likely among other things) the ability to build `arm32v7/*` Docker images on a Linux host of a different architecture without putting qemu-*-static binaries in the image itself. (Only tested on Debian 9)
 
 ### How do I know if I need them?
 
