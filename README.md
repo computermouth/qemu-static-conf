@@ -33,9 +33,9 @@ Condition: start condition failed at Thu 2017-07-13 00:06:51 PDT; 5s ago
 ### How do I install?
 
 ```
-git clone https://github.com/computermouth/qemu-static-config
+git clone https://github.com/computermouth/qemu-static-conf.git
 sudo mkdir -p /lib/binfmt.d
-sudo cp qemu-static-config/*.conf /lib/binfmt.d/
+sudo cp qemu-static-conf/*.conf /lib/binfmt.d/
 sudo systemctl restart systemd-binfmt.service
 ```
 
